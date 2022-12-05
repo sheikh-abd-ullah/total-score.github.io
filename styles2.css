@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1B244A;
+}
+
+.headings{
+    text-align: center;
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+.lightWeight{
+    font-family: 'Kanit', sans-serif;
+}
+
+.wide{
+    font-family: 'Zen Dots', cursive;
+}
+
+.teams{
+    text-align: center;
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+input{
+    margin-top: 2%;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Zen Dots', cursive;
+    border-radius: 10px;
+    border: none;
+}
+
+.teamB{
+    margin-top: 3%;
+}
+
+.btnAly{
+    text-align: center;
+    margin-top: 3%;
+}
+
+button{
+    font-size: 15px;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: #1B244A;
+}
+
+a{
+    list-style: none;
+}
+
+button:hover{
+    border: 1px solid aliceblue;
+    background-color: #1B244A;
+    color: aliceblue;
+}

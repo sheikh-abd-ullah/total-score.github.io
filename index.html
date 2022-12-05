@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+<section id="takingInput">
+    <div class="headings">
+    <h1 class="lightWeight">Welcome</h1>
+    <h3 class="lightWeight">to the</h3>
+    <h1 class="wide">Score Board</h1>
+    </div>
+
+    <div class="teams">
+    <div class="teamA">
+        <h3 class="lightWeight">Write Name of Team A</h3>
+        <input type="text" id="teamA" maxlength="10">
+    </div>
+
+    <div class="teamB">
+        <h3 class="lightWeight">Write Name of Team B</h3>
+        <input type="text" id="teamB" maxlength="10">
+    </div>
+    </div>
+
+    <div class="btnAly">
+        <button onclick="nameChange()">Let's go</button>
+    </div>
+
+</section>
+
+
+<section id="scoreScene">
+    <div class="container">
+        <div class="sect">
+            <h1 class="head" id="first">Team A</h1>
+            <div class="backNum">
+                <h1 class="scre" id="homeSc">0</h1>
+            </div>
+            <div class="btn3">
+                <button class="btn" onclick="incOneHome()">+1</button>
+                <button class="btn btnMid" onclick="incTwoHome()">+2</button>
+                <button class="btn" onclick="incThreeHome()">+3</button>
+            </div>
+        </div>
+        <div class="sect secondBoard">
+            <h1 class="head" id="second">Team B</h1>
+            <div class="backNum">
+                <h1 class="scre" id="guestSc">0</h1>
+            </div>
+            <div class="btn3">
+                <button class="btn" onclick="incOneGuest()">+1</button>
+                <button class="btn btnMid" onclick="incTwoGuest()">+2</button>
+                <button class="btn" onclick="incThreeGuest()">+3</button>
+            </div>
+        </div>
+    </div>
+<div class="sect resetDiv">
+<button class="reset" onclick="reset()">Reset</button>
+</div>
+</section>
+
+<script src="script.js"></script> 
+</body>
+</html>
